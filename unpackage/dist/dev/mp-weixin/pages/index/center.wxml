@@ -1,0 +1,1 @@
+<view class="wrapper data-v-5723ffaa"><view class="app-list _ul data-v-5723ffaa"><block wx:for="{{appList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="app-item _li data-v-5723ffaa"><image class="icon data-v-5723ffaa" src="{{item.iconUrl}}" alt></image><label class="_span data-v-5723ffaa">{{item.name}}</label></view></block></view></view>
