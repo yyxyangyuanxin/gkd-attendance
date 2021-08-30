@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "topbar": "/pages/attendance/topbar",
+    "center": "/pages/attendance/center"
+  }
+}

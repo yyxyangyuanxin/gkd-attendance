@@ -1,0 +1,23 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/attendance/index",
+          "pathName": "pages/attendance/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

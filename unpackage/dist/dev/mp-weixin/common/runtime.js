@@ -105,11 +105,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"pages/index/center":1,"pages/index/topbar":1};
+/******/ 		var cssChunks = {"pages/index/center":1,"pages/index/topbar":1,"pages/attendance/center":1,"pages/attendance/topbar":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"pages/index/center":"pages/index/center","pages/index/topbar":"pages/index/topbar"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"pages/index/center":"pages/index/center","pages/index/topbar":"pages/index/topbar","pages/attendance/center":"pages/attendance/center","pages/attendance/topbar":"pages/attendance/topbar"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {

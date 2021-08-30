@@ -133,7 +133,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var Topbar = function Topbar() {__webpack_require__.e(/*! require.ensure | pages/index/topbar */ "pages/index/topbar").then((function () {return resolve(__webpack_require__(/*! ./topbar.vue */ 17));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Center = function Center() {Promise.all(/*! require.ensure | pages/index/center */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pages/index/center")]).then((function () {return resolve(__webpack_require__(/*! ./center.vue */ 26));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var Topbar = function Topbar() {__webpack_require__.e(/*! require.ensure | pages/index/topbar */ "pages/index/topbar").then((function () {return resolve(__webpack_require__(/*! ./topbar.vue */ 23));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var Center = function Center() {Promise.all(/*! require.ensure | pages/index/center */[__webpack_require__.e("common/vendor"), __webpack_require__.e("pages/index/center")]).then((function () {return resolve(__webpack_require__(/*! ./center.vue */ 30));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};var _default =
 
 
 
